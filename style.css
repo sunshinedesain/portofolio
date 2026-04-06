@@ -1,0 +1,55 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    color: #333;
+    background-color: #fcfaf7; /* Putih tulang hangat */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5%;
+    background: #fff;
+}
+
+.logo {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+#hero {
+    text-align: center;
+    padding: 100px 5%;
+    background: #e9e0d3; /* Warna kayu muda */
+}
+
+#work {
+    padding: 50px 5%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    height: 200px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #8b5a2b;
+    color: #8b5a2b;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karya Saya - Sunshine Studio</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SUNSHINE STUDIO</div>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="karya.html">Karya</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="work">
+        <h1>Galeri Fotografi Analog</h1>
+        <p>Hasil tangkapan dari Mamiya RB67 dan Canon Autoboy S.</p>
+        <div class="grid">
+            <div class="card">Foto Analog 1</div>
+            <div class="card">Foto Analog 2</div>
+        </div>
+    </section>
+</body>
+</html>
